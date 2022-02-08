@@ -1,0 +1,99 @@
+
+/* NAVIGATION */ 
+nav {
+    border: 1px solid rgba(0, 0, 0, 0.449);
+    border-radius: 12px;
+    width: 100%;
+    background-color: #ffb042e5
+}
+.box_holder_sec {
+    background-image: url(images/how-much-car-insurance_1094338200.jpg);
+    height:500px;
+    background-size: 1431px;
+    margin-top: -50px;
+    padding-top: -10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.nav_flex {
+    display: flex;
+    justify-content: space-around;
+}
+.login_flex {
+    display: flex;
+    align-items: center;
+}
+.login {
+    margin-left: 6px;
+}
+ 
+/* FORM */
+
+.booking_box {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 17px;
+    padding-bottom: 10px;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: rgba(204, 198, 198, 0.557);
+}
+.form_firstrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.dropdown {
+    display: flex;
+    flex-direction: column
+}
+.form_secondrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.search_btn {
+    margin-top: 10px;
+    border-radius: 22px;
+    padding: 7px;
+    background-color: #ffb042e5
+}
+/*Heading*/
+
+.line {
+    width: 1000px;
+    border-bottom: 1px solid black;
+}
+
+/* ITEMS */
+
+.first_item {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    border-radius: 28px;
+    background-color: rgba(209, 205, 205, 0.217);
+    align-items: center;
+    width: 84%;
+    margin-top: 28px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.items_holder {
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 20px;
+    align-items: center;
+}
+.btn_book {
+    background-color: #ffb042e5;
+    border-radius: 12px;
+    padding: 8px;
+}

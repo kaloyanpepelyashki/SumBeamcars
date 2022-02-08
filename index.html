@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="nav_flex">
+            <h1>SunbeamCars Inc.</h1>
+            <div class="login_flex">
+                <i class="fas fa-sign-in-alt"></i>
+                <h5 class="login">Log in</h5>
+            </div>
+        </div>
+    </nav>
+    <main>
+    <section class="box_holder_sec">
+    <form id="form">
+    <div class="booking_box">
+        <h4>Find the car that suits you</h4>
+        <div class="form_firstrow">
+            <div class="dropdown">
+                <label>I pick it up</label>
+                    <input type="date" id="start">
+            </div>
+            <div class="dropdown">
+                <label>I hand it in</label>
+                    <input type="date" id="end">
+            </div>
+        </div>
+        <div class="form_secondrow">
+            <div class="dropdown">
+                <label>Number of persons</label>
+                    <select id="listp">
+                        <option value="1">1 person</option>
+                        <option value="2">2 persons</option>
+                        <option value="3">3 persons</option>
+                        <option value="4">4 persons</option>
+                        <option value="5">5 persons</option>
+                        <option value="6">6 persons</option>
+                        <option value="7">7 persons</option>
+                    </select>
+            </div>
+            <div class="dropdown">
+                <label>Number of suitcases</label>
+                    <select id="listsc">
+                        <option value="0">0 only a bag</option>
+                        <option value="1">1 suitcase</option>
+                        <option value="2">2 suitcases</option>
+                        <option value="3">3 suitcases</option>
+                        <option value="4">4 suitcases</option>
+                    </select>
+            </div>
+        </div>
+        <button type="submit" class="search_btn"> Search </button>
+    </form>
+    </div>
+</section>
+    <div id="output"></div>
+    <br>
+    <h3>Our Cars</h3><span class="line"></span>
+    <div class="items_holder">
+        <div class="first_item">
+            <img src="images/Grand_spacetourer_go_diesel.png" width="190px">
+            <h3>Citroen Grand C4 Picasso</h3>
+            <p>Category: Minivan<br>
+               Persons: 7<br>
+               Suitcases: 4
+            </p>
+            <div class="price_holder">
+                <h5>kr. 1643.75</h5>
+                <button class="btn_book">Book Now</button>
+            </div>
+        </div>
+        <div class="first_item second">
+            <img src="images/NEW_OCTAVIA_FRONT.png" width="190px">
+            <h3>Scoda Octavia 2020</h3>
+            <p>Category: Small family car<br>
+               Persons: 5<br>
+               Suitcases: 2
+            </p>
+            <div class="price_holder">
+                <h5>kr. 743.00</h5>
+                <button class="btn_book">Book Now</button>
+            </div>
+        </div>
+        <div class="first_item third">
+            <img src="images/kia-sorento-phev-gls-my22-range-v1-520x260.png" width="190px">
+            <h3>Kia Sorento</h3>
+            <p>Category: Compact SUV <br>
+               Persons: 5<br>
+               Suitcases: 4
+            </p>
+            <div class="price_holder">
+                <h5>kr. 1009.00</h5>
+                <button class="btn_book">Book Now</button>
+            </div>
+        </div>
+    </div>
+
+    </main>
+    <script src="javascript.js"></script>
+</body>
+</html>
